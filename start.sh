@@ -8,7 +8,7 @@ export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiNjRmYzMyMmEwY2JlNWExYTY2OGQ4NjMyZDE3MzlmN
 export NAME=${NAME:-'Vls'}
 export CFIP=${CFIP:-'government.se'}
 export FILE_PATH=${FILE_PATH:-'./temp'}
-export ARGO_PORT=${ARGO_PORT:-'8001'}  # argo隧道端口，若使用固定隧道token请改回8080或CF后台改为与这里对应
+export ARGO_PORT=${ARGO_PORT:-'8080'}  # argo隧道端口，若使用固定隧道token请改回8080或CF后台改为与这里对应
 
 if [ ! -d "${FILE_PATH}" ]; then
     mkdir ${FILE_PATH}
